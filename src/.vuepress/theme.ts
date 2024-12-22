@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "zhangsong-github/zhangsong-github",
+  // repo:  "zhangsong-github/jasons-blog",
 
   docsDir: "src",
 
