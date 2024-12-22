@@ -1,0 +1,26 @@
+// place your custom styles here
+.vp-portfolio-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    display: block;
+    min-width: 20vw;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+.vp-portfolio:not(.bg)::after {
+  width: 40vw;
+  height: 40vw;
+  top: 50%;
+  left: 0;
+  transform: translateX(-15%) translateY(-50%);
+}
+
+@media (max-width: 959px) {
+  .vp-portfolio-avatar {
+      width: 100%;
+  }
+}
